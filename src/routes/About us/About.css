@@ -1,0 +1,56 @@
+.about {
+    width :100%;
+}
+.about .container{
+padding: 2rem;
+max-width: 1400px;
+margin: auto;
+}.about .content{
+    display: flex;
+    align-items: center;
+
+}
+.about .content .section_one{
+    width: 50%;
+   padding-right: 4rem;
+    
+}
+.about .content .section_two{
+    width: 50%;
+}
+.about .content .section_two .image img{
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.about .content .section_two .image{
+   
+    padding: 2rem;
+}
+.about h1{
+    color: #001489;
+    font-family: "Gilroy_Bold";
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  @media screen and (max-width:1000px) {
+    .about .content .section_one,.about .content .section_two{
+        width: 100%;
+        padding: 0;
+        margin-top: 2rem;
+     
+    }
+    .about .content{
+        flex-direction: column;
+    }
+    .about h1{
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .about .content .section_two .image{
+        
+        padding: 3rem 0px;
+    }
+  }
